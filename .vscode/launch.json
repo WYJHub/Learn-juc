@@ -1,0 +1,252 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ABADemo",
+            "request": "launch",
+            "mainClass": "atomic.ABADemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AtomicStampleDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicStampleDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SpinLockDemo",
+            "request": "launch",
+            "mainClass": "atomic.SpinLockDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AtomicReferenceDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicReferenceDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AtomicDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFutureAPIDemo",
+            "request": "launch",
+            "mainClass": "CompletableFutureAPIDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFutureBuildDemo",
+            "request": "launch",
+            "mainClass": "CompletableFutureBuildDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFutureMallDemo",
+            "request": "launch",
+            "mainClass": "CompletableFutureMallDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFutureUseDemo",
+            "request": "launch",
+            "mainClass": "CompletableFutureUseDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFuturueDemo",
+            "request": "launch",
+            "mainClass": "CompletableFuturueDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "DaemonDemo",
+            "request": "launch",
+            "mainClass": "DaemonDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "FutureAPIDemo",
+            "request": "launch",
+            "mainClass": "FutureAPIDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "FutureThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "FutureThreadPoolDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "PrintNum",
+            "request": "launch",
+            "mainClass": "PrintNum",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "TestIpp",
+            "request": "launch",
+            "mainClass": "TestIpp",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadBaseDemo",
+            "request": "launch",
+            "mainClass": "ThreadBaseDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadStateDemo",
+            "request": "launch",
+            "mainClass": "ThreadStateDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CombineDemo",
+            "request": "launch",
+            "mainClass": "futurecommethod.CombineDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFurtureApiDemo",
+            "request": "launch",
+            "mainClass": "futurecommethod.CompletableFurtureApiDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CompletableFutureApiDemo",
+            "request": "launch",
+            "mainClass": "futurecommethod.CompletableFutureApiDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SpeedChoose",
+            "request": "launch",
+            "mainClass": "futurecommethod.SpeedChoose",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "InterruptDemo",
+            "request": "launch",
+            "mainClass": "interrupt.InterruptDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "InterruptDemo1",
+            "request": "launch",
+            "mainClass": "interrupt.InterruptDemo1",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "InterruptDemo2",
+            "request": "launch",
+            "mainClass": "interrupt.InterruptDemo2",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "InterruptDemo3",
+            "request": "launch",
+            "mainClass": "interrupt.InterruptDemo3",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "DeadLockDemo",
+            "request": "launch",
+            "mainClass": "lock.DeadLockDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "Lock8Demo",
+            "request": "launch",
+            "mainClass": "lock.Lock8Demo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "LockSyncDemo",
+            "request": "launch",
+            "mainClass": "lock.LockSyncDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "ReEntryLock",
+            "request": "launch",
+            "mainClass": "lock.ReEntryLock",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SaleTicketDemo",
+            "request": "launch",
+            "mainClass": "lock.SaleTicketDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "LockCondition",
+            "request": "launch",
+            "mainClass": "locksupport.LockCondition",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "LockSupportDemo",
+            "request": "launch",
+            "mainClass": "locksupport.LockSupportDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SyncWaitNotify",
+            "request": "launch",
+            "mainClass": "locksupport.SyncWaitNotify",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "VolatileDemo",
+            "request": "launch",
+            "mainClass": "volatiledemo.VolatileDemo",
+            "projectName": "Learn-juc"
+        }
+    ]
+}

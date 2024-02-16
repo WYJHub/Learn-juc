@@ -49,7 +49,6 @@ class MyThread implements Callable<String> {
 
     @Override
     public String call() throws Exception {
-        // TODO Auto-generated method stub
         System.out.println("------come in call()");
         return "hello callable";
     }
