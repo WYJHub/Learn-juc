@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AtomicMarkableReferenceDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicMarkableReferenceDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "DaemonDemo",
+            "request": "launch",
+            "mainClass": "threaddemo.DaemonDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadDemo",
+            "request": "launch",
+            "mainClass": "threaddemo.ThreadDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
             "name": "ABADemo",
             "request": "launch",
             "mainClass": "atomic.ABADemo",

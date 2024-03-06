@@ -12,6 +12,7 @@ class Book {
     private String name;
 }
 
+//带邮戳的原子引用类，能够避免aba问题
 public class AtomicStampleDemo {
     public static void main(String[] args) {
         Book book = new Book(1, "javabook");

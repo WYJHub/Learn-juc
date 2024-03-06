@@ -1,3 +1,4 @@
+package futuredemo;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
@@ -28,6 +29,7 @@ public class CompletableFuturueDemo {
 
         t1.start();
 
+        //调用get方法后，该线程会阻塞。
         System.out.println(futureTask.get());
     }
 }

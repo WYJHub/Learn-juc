@@ -1,3 +1,4 @@
+package threaddemo;
 import java.util.concurrent.TimeUnit;
 
 
@@ -21,7 +22,9 @@ public class DaemonDemo {
 
             }
         }, "t1");
-        // t1.setDaemon(true);
+        //不开启守护线程，就是普通的用户线程，会一直执行线程任务直至结束
+        //开启守护线程，会随着其他线程执行完毕而关闭
+        t1.setDaemon(true);
         t1.start();
 
         try {

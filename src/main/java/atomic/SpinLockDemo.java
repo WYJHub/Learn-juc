@@ -33,7 +33,7 @@ public class SpinLockDemo {
 
     public static void main(String[] args) {
         SpinLockDemo spinLockDemo = new SpinLockDemo();
-        
+        //线程1先持有自旋锁
         new Thread(() -> {
             spinLockDemo.Lock();
             try {
@@ -44,12 +44,13 @@ public class SpinLockDemo {
             spinLockDemo.unLock();
         }, "t1").start();
 
+        //主线程休息500ms
         try {
             TimeUnit.MILLISECONDS.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        //启动线程2，然后获取锁和抛弃锁，由于线程t2刚启动时，线程t1还在模拟执行任务，持有锁，所有线程2会一直自旋直至线程1释放锁
         new Thread(() -> {
             spinLockDemo.Lock();
             spinLockDemo.unLock();
