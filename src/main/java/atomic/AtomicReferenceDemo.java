@@ -5,12 +5,12 @@ import java.util.concurrent.atomic.AtomicReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@AllArgsConstructor
-@Data
-class User {
-    private String username;
-    private String password;
-}
+//@AllArgsConstructor
+//@Data
+//class User {
+//    private String username;
+//    private String password;
+//}
 
 public class AtomicReferenceDemo {
     public static void main(String[] args) {

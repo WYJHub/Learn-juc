@@ -1,7 +1,6 @@
 package atomic;
 
 import java.util.concurrent.atomic.AtomicMarkableReference;
-import java.util.concurrent.atomic.AtomicReference;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

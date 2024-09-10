@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class CompletableFutureApiDemo {
     public static void main(String[] args) {
         ExecutorService threadPool = Executors.newFixedThreadPool(3);
+        
         CompletableFuture<Integer> completableFuture = CompletableFuture.supplyAsync(() -> {
             try {
                 TimeUnit.SECONDS.sleep(1);

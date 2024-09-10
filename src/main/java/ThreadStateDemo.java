@@ -12,7 +12,6 @@ public class ThreadStateDemo {
             for(int i = 0; i < 200; i++) {
                 System.out.println(i);
             }
-
         }, "t1");
 
         //创建未start时，为New，新建状态
@@ -24,7 +23,6 @@ public class ThreadStateDemo {
             try {
                 t1.wait((long) o);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             System.out.println("t2执行");

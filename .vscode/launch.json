@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NIOClient",
+            "request": "launch",
+            "mainClass": "iodemo.nio.NIOClient",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "NIOServer",
+            "request": "launch",
+            "mainClass": "iodemo.nio.NIOServer",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "CopyDemo",
+            "request": "launch",
+            "mainClass": "iodemo.nio.CopyDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SocketServer2",
+            "request": "launch",
+            "mainClass": "iodemo.SocketServer2",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientDaemon",
+            "request": "launch",
+            "mainClass": "iodemo.SocketClientDaemon",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadLocalDemo",
+            "request": "launch",
+            "mainClass": "threadlocaldemo.ThreadLocalDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AccumulatorCompareDemo",
+            "request": "launch",
+            "mainClass": "atomic.AccumulatorCompareDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AtomicReferenceFieldUpdaterDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicReferenceFieldUpdaterDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
+            "name": "AtomicIntegerFieldUpdaterDemo",
+            "request": "launch",
+            "mainClass": "atomic.AtomicIntegerFieldUpdaterDemo",
+            "projectName": "Learn-juc"
+        },
+        {
+            "type": "java",
             "name": "AtomicMarkableReferenceDemo",
             "request": "launch",
             "mainClass": "atomic.AtomicMarkableReferenceDemo",

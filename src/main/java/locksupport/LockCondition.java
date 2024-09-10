@@ -16,12 +16,24 @@ public class LockCondition {
                 newCondition.await();
                 System.out.println(Thread.currentThread().getName() + "\t ----被唤醒");
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally {
                 lock.unlock();
             }
         }, "t1").start();
+
+        new Thread(() -> {
+            lock.lock();
+            try {
+                System.out.println(Thread.currentThread().getName() + "\t ----come in");
+                newCondition.await();
+                System.out.println(Thread.currentThread().getName() + "\t ----被唤醒");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+                lock.unlock();
+            }
+        }, "t3").start();
 
         try {
             TimeUnit.SECONDS.sleep(1);
@@ -33,7 +45,7 @@ public class LockCondition {
             lock.lock();
             try {
                 System.out.println(Thread.currentThread().getName() + "\t ----发起通知");
-                newCondition.signal();
+                newCondition.signalAll();
             } finally {
                 lock.unlock();
             }
